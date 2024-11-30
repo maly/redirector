@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bd": "docker build --rm -t adent/redirector:latest .. && docker push adent/redirector:latest && date /t && time /t"
+  },
+  "keywords": [],
+  "author": "Martin Malý <maly@maly.cz>",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
